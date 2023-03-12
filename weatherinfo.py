@@ -10,7 +10,7 @@ from pprint import pprint
 
 
 def generateweatherdata(location):
-    API_KEY = '81acc6acb02af547474ca2beac56f67f'
+    API_KEY = ''#Place your own API key here
     base_url ='http://api.openweathermap.org/data/2.5/weather?appid='+API_KEY+"&q="+location
     weatherdata = requests.get(base_url).json()
     pprint(weatherdata)

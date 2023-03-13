@@ -4,14 +4,16 @@
 #Step 3: Display a message at the end of the timer
 
 import time
+from time import sleep as wait
 
 
 def countdown(t):
+
     while(t):
         min, secs = divmod(t, 60)
-        timer = '{:02d}:{02d}'.format(min, secs)
+        timer = '{:02d}:{:02d}'.format(min, secs)
         print(timer, end='\r')
-        time.sleep(1)
+        wait(1)
         t-=1
     print("Timer completed!")
     

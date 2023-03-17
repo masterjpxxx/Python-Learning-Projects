@@ -1,7 +1,0 @@
-Hi!
-
-This is JP and I am sending this email from a python script.
-
-
-Regards,
-JP

@@ -43,7 +43,7 @@ This program is called a Hangman Game, users guess the random picked word per le
 <br/>
 <p>
 This program is asks the user for word/s and replaces the words within the sentence or paragraph based on the sequence of the word being inputted.
-</p
+</p>
 
 ## Project # 6: Password Generator (passwordgenerator.py)
 
